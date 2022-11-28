@@ -8,7 +8,6 @@
   "htmlWhitespaceSensitivity": "ignore",
   "trailingComma": "none",
   "arrowParens": "avoid",
-  "eslintIntegration": true,
   "overrides": [
     {
       "files": "*.html",
