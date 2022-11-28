@@ -14,6 +14,7 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'html'],
   rules: {
     'prettier/prettier': 'warn',
-    '@typescript-eslint/no-var-requires': 'off'
+    '@typescript-eslint/no-var-requires': 'off',
+    'react/react-in-jsx-scope': 'off'
   }
 }

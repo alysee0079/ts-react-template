@@ -1,0 +1,27 @@
+/* 自定义 scss */
+
+/* mixins */
+// felx 布局
+@mixin flex-layout($display: flex, $alignItems: normal, $justifyContent: normal, $direction: row, $wrap: nowrap, $alignContent: normal) {
+  display: $display;
+  align-items: $alignItems;
+  justify-content: $justifyContent;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+  align-content: $alignContent;
+}
+// 单行文本溢出
+@mixin ellipsis-single($maxWidth) {
+  max-width: $maxWidth;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@mixin ellipsis-multiple($maxWidth, $line) {
+  max-width: $maxWidth;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
