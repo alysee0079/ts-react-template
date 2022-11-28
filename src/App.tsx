@@ -7,7 +7,6 @@ function App() {
       <p>dsads</p>
       <header className="App-header">
         <Button type="primary">primary</Button>
-        {/* <Button type="primary">primary</Button> */}
       </header>
     </div>
   )
