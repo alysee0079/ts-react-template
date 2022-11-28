@@ -1,7 +1,5 @@
 import { Button } from 'antd'
 import styles from './App.module.scss'
-const a = 123
-console.log(a)
 
 function App() {
   return (
